@@ -9,9 +9,8 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 import com.interfaces.ICustomer;
+import com.model.Customer;
 import com.test.jpa.employee.EmployeeEntity;
-
-import model.Customer;
 
 public class CustomerService implements ICustomer {
 	

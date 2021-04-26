@@ -3,8 +3,8 @@
 	<persistence-unit name="Class_JPA">
 		<class>com.test.jpa.department.Department</class>    <!-- Set package name and class name under <class> tag -->
 		<class>com.test.jpa.employee.EmployeeEntity</class>
-		<class>model.Orderdetail</class>
-		<class>model.Customer</class>    <!-- Set package name and class name under <class> tag -->
+		<class>com.model.Orderdetail</class>
+		<class>com.model.Customer</class>    <!-- Set package name and class name under <class> tag -->
 		<properties>  
 			<property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mariadb://localhost/classicmodels"/>

@@ -11,10 +11,9 @@ import javax.persistence.Query;
 
 import org.omg.CosNaming._BindingIteratorImplBase;
 
+import com.model.Orderdetail;
 import com.test.jpa.employee.EmployeeEntity;
 import com.test.jpa.employee.EmployeeService;
-
-import model.Orderdetail;
 
 public class JQL {
 

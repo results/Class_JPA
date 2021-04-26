@@ -3,7 +3,7 @@ package com.interfaces;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Customer;
+import com.model.Customer;
 
 public interface ICustomer {
 	
